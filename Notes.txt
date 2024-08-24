@@ -1,0 +1,30 @@
+#Backend
+npm init
+npm install express
+"start": "node index.js"
+"type": "module",
+npm install nodemon
+npm install dotenv
+const dotenv=require('dotenv');
+dotenv.config()
+npm install mongoose
+*****************************************************
+Backend folder structure
+=> Model 
+    book.Model.js // import mongoose
+=> Controler // add functionality 
+    book.controller.js
+=> Route
+    book.route.js //import express
+index.js
+import cors from 'cors';
+// middleware as a bridge between frontend and backend
+  import route
+  app.use(cors());
+app.use(express.json());
+
+npm i bcrypt 
+
+
+     
+         
